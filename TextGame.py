@@ -1,6 +1,6 @@
 #Text telling about what the game does.
-print(""" Velkommen til Åpne Døren! Spillet hvor du må prøve å åpne døren. Du kan alltid gå ut av spillet 
-      ved å trykke enter i svarsboksen. Håper du liker spillet og lykke til! :D """)
+print("""Velkommen til Åpne Døren! Spillet hvor du må prøve å åpne døren. Du kan alltid gå ut av spillet 
+ved å trykke enter i svarsboksen. Håper du liker spillet og lykke til! :D """)
 #Variables:
 svar1 = input('Du står utenfor en dør med en postkasse. - ').lower()
 aapne_postkasse = False
