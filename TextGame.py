@@ -1,10 +1,12 @@
 #Text telling about what the game does.
 print("""Velkommen til Åpne Døren! Spillet hvor du må prøve å åpne døren. Du kan alltid gå ut av spillet 
 ved å trykke enter i svarsboksen. Håper du liker spillet og lykke til! :D """)
+
 #Variables:
 svar1 = input('Du står utenfor en dør med en postkasse. - ').lower()
 aapne_postkasse = False
 
+#The game loop code
 while svar1 == 'åpne døren' or svar1 == 'åpne postkassen' or svar1 != 'åpne døren' or svar1 != 'åpne postkassen':
     if svar1 == 'åpne døren' and aapne_postkasse == False: #Makes sure you need the key to open the door.
         print('Døren er låst ')
