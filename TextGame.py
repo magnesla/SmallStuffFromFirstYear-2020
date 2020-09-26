@@ -24,7 +24,7 @@ while svar1 == 'åpne døren' or svar1 == 'åpne postkassen' or svar1 != 'åpne 
     elif svar1 == '': #Makes the game end by pressing enter. Uses break to quit.
         print('Takk for at du så på spillet. Ha en fin dag!')
         break
-    elif svar1 == 'åpne døren' and aapne_postkasse == True: #Makes u complete the game when you have opened the mailbox once and then open the door.
+    elif svar1 == 'åpne døren' and aapne_postkasse == True: #Makes you complete the game when you have opened the mailbox once and then open the door.
         print('Du låser opp døren og går inn.')
         print ('Takk for at du spilte!')
         break
